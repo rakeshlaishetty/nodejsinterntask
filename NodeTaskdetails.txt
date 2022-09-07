@@ -1,0 +1,5 @@
+1. Created Simple route as / and added Some details  for testing purpose details login a admin or without admin details
+2.Created Signup route and takes a email and password name and excluding isAdmin field  
+3.Created login route and generate jwt token send to cookie 
+4.Created logout route destroy the Cookie 
+5.created two middlewars one is (Authentcaiton with Token and verify tokend) and (Another one is that token data user is isAdmin true ) which we can get All user data with root admin access 
